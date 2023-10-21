@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C02</title>
+</head>
+
+<body>
+    <h1>Mẫu nhập thông tin sinh viên</h1>
+    <fieldset>
+        <legend>
+            Thông tin cơ bản
+        </legend>
+        <form action="">
+            <span>Họ và tên</span>
+            <input style="margin: 10px 0px;" type="text">
+            <br>
+            <span>Ngày sinh</span>
+            <input style="margin: 10px 0px;" type="date">
+            <br>
+            <span>Giới tính</span>
+            <input style="margin: 10px 0px;" type="radio" id="nam" name="sex">
+            <label for="nam">Nam</label>
+            <input style="margin: 10px 0px;" type="radio" id="nu" name="sex">
+            <label for="nu">Nữ</label>
+            <input style="margin: 10px 0px;" type="radio" id="khac" name="sex">
+            <label for="khac">Khác</label>
+            <br>
+            <span>Tổ hợp xét tuyển</span>
+            <br>
+            <input type="checkbox" id="toan" value="toan">
+            <label for="toan">Toán</label>
+            <br>
+            <input type="checkbox" id="ly" value="ly">
+            <label for="ly">Lý</label>
+            <br>
+            <input type="checkbox" id="hoa" value="hoa">
+            <label for="hoa">Hóa</label>
+            <br>
+            <input type="checkbox" id="anh" value="anh">
+            <label for="anh">Anh</label>
+
+
+        </form>
+    </fieldset>
+    <fieldset style="margin-top: 20px;">
+        <legend>
+            Thông tin liên lạc
+        </legend>
+        <span>Email</span>
+        <input style="margin: 10px 0px;" type="text" placeholder="...">
+        <br>
+        <span>Số điện thoại</span>
+        <input style="margin: 10px 0px;" type="text" placeholder="...">
+    </fieldset>
+    <button type="submit" style="margin-top: 20px;">
+        Gửi
+    </button>
+</body>
+
+</html>
